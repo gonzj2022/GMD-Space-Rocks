@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_asteroid",
   "spriteId": {
-    "name": "small",
-    "path": "sprites/small/small.yy",
+    "name": "spr_smallRock",
+    "path": "sprites/spr_smallRock/spr_smallRock.yy",
   },
   "solid": false,
   "visible": true,

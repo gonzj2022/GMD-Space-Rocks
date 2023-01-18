@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 sprite_index = choose(
-small, medium, Big
+spr_smallRock, spr_mediumRock, spr_BigRock
 );
 
 direction = irandom_range(0,359);
