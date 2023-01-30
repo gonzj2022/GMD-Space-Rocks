@@ -13,8 +13,12 @@ if(keyboard_check(vk_up)){
 }
 
 if(keyboard_check_pressed(vk_space)){
-	var inst = instance_create_layer(x,y, "Instances", obj_bullet);
-	inst.direction = image_angle;
+	var inst1 = instance_create_layer(x,y, "Instances", obj_bullet);
+	inst1.direction = image_angle;
+	inst1.y = y + 22
+	var inst2 = instance_create_layer(x,y, "Instances", obj_bullet);
+	inst2.direction = image_angle;
+	inst2.y = (y - 22)
 }
 
 move_wrap(true,true,sprite_width/2);
