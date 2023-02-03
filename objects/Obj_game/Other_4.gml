@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(room == rm_game){
+	if(audio_is_playing(msc_background)){
+		audio_stop_sound(msc_background);
+	}
 	audio_play_sound(msc_background, 2, true);
+	
 	repeat(6){
 		var xx = choose(
 			irandom_range(0, room_width*0.3),

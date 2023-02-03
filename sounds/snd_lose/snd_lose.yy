@@ -1,14 +1,14 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "msc_lose",
+  "name": "snd_lose",
   "conversionMode": 0,
   "compression": 0,
   "type": 0,
   "sampleRate": 44100,
   "bitDepth": 1,
   "bitRate": 128,
-  "soundFile": "msc_lose.wav",
+  "soundFile": "snd_lose.wav",
   "volume": 1.0,
   "preload": false,
   "audioGroupId": {

@@ -19,6 +19,7 @@ if(keyboard_check_pressed(vk_space)){
 	var inst2 = instance_create_layer(x,y, "Instances", obj_bullet);
 	inst2.direction = image_angle;
 	inst2.y = (y - 22)
+	audio_play_sound(snd_shoot, 1, false);
 }
 
 move_wrap(true,true,sprite_width/2);

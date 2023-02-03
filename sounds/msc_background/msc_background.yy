@@ -9,7 +9,7 @@
   "bitDepth": 1,
   "bitRate": 128,
   "soundFile": "msc_background.wav",
-  "volume": 1.0,
+  "volume": 0.24,
   "preload": false,
   "audioGroupId": {
     "name": "audiogroup_default",
