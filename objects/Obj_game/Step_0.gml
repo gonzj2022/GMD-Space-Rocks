@@ -21,4 +21,6 @@ if(room == rm_game){
 	if(lives <= 0){
 		room_goto(rm_gameover);
 	}
+	
+	alarm[0] = 60;
 }
